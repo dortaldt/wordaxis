@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "lucide-react": "^0.469.0"
+    "lucide-react": "^0.469.0",
+    "node-sass": "^9.0.0"
   }
 }
