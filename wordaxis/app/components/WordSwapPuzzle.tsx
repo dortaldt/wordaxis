@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { AlertCircle, HelpCircle, X } from 'lucide-react';
+import sass from 'sass';
+
 
 interface Word {
   id: number;
