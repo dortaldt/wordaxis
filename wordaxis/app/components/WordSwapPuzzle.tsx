@@ -1,8 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { AlertCircle, HelpCircle, X } from 'lucide-react';
-import sass from 'sass';
+import React, { useState } from 'react';
+import { HelpCircle, X } from 'lucide-react';
 
 
 interface Word {
@@ -125,14 +125,6 @@ const WordSwapPuzzle: React.FC = () => {
     }
   };
 
-  const positionClasses: Record<Position, string> = {
-    'top': 'top-4 left-1/2 -translate-x-1/2',
-    'left': 'top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2',
-    'right': 'top-1/4 right-1/4 translate-x-1/2 -translate-y-1/2',
-    'bottom-left': 'bottom-1/4 left-1/4 -translate-x-1/2 translate-y-1/2',
-    'bottom-right': 'bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2',
-    'side': 'top-1/2 right-4 -translate-y-1/2'
-  };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-slate-100 p-4">
