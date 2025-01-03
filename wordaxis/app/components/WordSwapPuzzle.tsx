@@ -132,7 +132,6 @@ const WordSwapPuzzle: React.FC = () => {
     'side': 'top-1/2 right-4 -translate-y-1/2'
   };
 
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-slate-100 p-4">
       {/* Header */}
