@@ -1,0 +1,10 @@
+{
+    "builds": [
+      {
+        "src": "wordaxis/next.config.js",
+        "use": "@vercel/next"
+      }
+    ],
+    "outputDirectory": "wordaxis/out",
+    "framework": "nextjs"
+  }
